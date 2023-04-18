@@ -10,7 +10,7 @@
     {
         "id":1,
         "place":"Cyprus",
-        "img":[{"num":"./assets/cyprus/cyprus1.jpg"},{"num":"./assets/cyprus/cyprus2.jpg"},{"num":"./assets/cyprus/cyprus3.jpg"}],
+        "img":[{"num":"./assets/cyprus/cyprus1.jpeg"},{"num":"./assets/cyprus/cyprus2.jpg"},{"num":"./assets/cyprus/cyprus3.jpg"}],
         "fact":"Cyprus is know as the island of love, the birthplace of Aphrodite, the goddess of love and beauty!", 
         "hintQ": [{"num" : "The only other country to hold a british royal wedding! All the way from 1191! "},{"num" : "The home Of Halloumi."},{"num" : "There are more stray cats then residents here"}]
     },
@@ -24,7 +24,7 @@
     {
         "id":3,
         "place":"Spain",
-        "img":[{"num":"./assets/spain/spain1.jpg"},{"num":"./assets/spain/spain2.jpg"},{"num":"./assets/spain/spain3.jpg"}],
+        "img":[{"num":"./assets/spain/spain1.jpg"},{"num":"./assets/spain/spain2.jpeg"},{"num":"./assets/spain/spain3.jpg"}],
         "fact":"Instead of a Tooth fairy, Spain has a Tooth mouse called Ratoncito Perez.",
         "hintQ": [{"num" : "Has the oldest restaurant in the world in its captial"},{"num" : "The origin of the stapler!"},{"num" : "Their national animal is the bull!"}]
     },
