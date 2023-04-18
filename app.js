@@ -31,6 +31,11 @@ app.get("/", (req, res) => {
     res.send(africa[randIdx]);
    
   });
+  app.get("/random/north_america", (req, res) => {
+    const randIdx = Math.floor(Math.random() * north_america.length);
+    res.send(north_america[randIdx]);
+   
+  });
   app.get("/random/africa:img",(req, res) => {
     const randIdx = forEach(el => el.params.img);
 console.log(randIdx)
