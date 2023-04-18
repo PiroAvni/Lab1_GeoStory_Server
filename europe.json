@@ -10,8 +10,8 @@
     {
         "id":1,
         "place":"Cyprus",
-        "img":["imgurl/.jpg/.gif"],
-        "fact":"Cyprus is know as the island of love", 
+        "img":[{"num":"./assets/cyprus/cyprus1.jpg"},{"num":"./assets/cyprus/cyprus2.jpg"},{"num":"./assets/cyprus/cyprus3.jpg"}],
+        "fact":"Cyprus is know as the island of love, the birthplace of Aphrodite, the goddess of love and beauty!", 
         "hintQ": [{"num" : "The only other country to hold a british royal wedding! All the way from 1191! "},{"num" : "The home Of Halloumi."},{"num" : "There are more stray cats then residents here"}]
     },
     {
