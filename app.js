@@ -16,12 +16,12 @@ app.use(logger);
 
 
 
-app.get("/", (req, res, next) => {
+app.get("https://geostory-server.onrender.com", (req, res, next) => {
     res.send("Welcome to the GeoStory API!");
   
   });
 
-  app.get("/africa", (req, res, next) => {
+  app.get("https://geostory-server.onrender.com/africa", (req, res, next) => {
     res.send(africa);
   
   });
