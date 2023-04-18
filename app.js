@@ -8,7 +8,6 @@ const asia = require("./Json/asia.json");
 const europe = require("./Json/europe.json");
 const oceania = require("./Json/oceania.json");
 
-
 const logger = require("./logger/logger");
 
 const app = express();
@@ -19,8 +18,7 @@ app.use(logger);
 
 // Home
 app.get("/", (req, res) => {
- res.send("Welcome to the GeoStory API!");
-
+  res.send("Welcome to the GeoStory API!");
 });
 
 // Africa
