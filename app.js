@@ -45,7 +45,7 @@ app.get("/North_Americas/random", (req, res) => {
 app.get("South_Americas/", (req, res) => {
   res.send(south_america);
 });
-app.get("South_Americas/random", (req, res) => {
+app.get("/South_Americas/random", (req, res) => {
   const randSA = Math.floor(Math.random() * south_america.length);
   res.send(south_america[randSA]);
 });
