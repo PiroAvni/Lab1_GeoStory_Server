@@ -23,7 +23,7 @@ app.get("/Africa", (req, res) => {
   res.send(africa);
 });
 
-app.get("/random/Africa/Random", (req, res) => {
+app.get("/Africa/Random", (req, res) => {
   const randIdx = Math.floor(Math.random() * africa.length);
   res.send(africa[randIdx]);
 });
