@@ -1,0 +1,39 @@
+[
+    {
+        "id":0,
+        "place":"New Zealand",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact",
+        "hintQ": [{"1" : "","2" : "hint2","3" : "hint3"}]
+
+    },
+    {
+        "id":1,
+        "place":"Fiji",
+        "img":["imgurl/.jpg/.gif"],
+        "fact":"fun fact:", 
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    },
+    {
+        "id":2,
+        "place":"Cook island",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact: ",
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    },
+    {
+        "id":3,
+        "place":"Kiribati",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact: ",
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    },
+    {
+        "id":4,
+        "place":"Samoa",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact: ",
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    }
+    
+]

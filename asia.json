@@ -1,0 +1,39 @@
+[
+    {
+        "id":0,
+        "place":"Japan",
+        "img":[{"0":"./assets/japan/japan1.jpg","1":"./assets/japan/japan2.jpg", "2":"./assets/japan/japan3.jpg"}],
+        "fact":"Japan has anislan d called Ao Island in Ozu, where the number of cats outnumber humans by 36:1!",
+        "hintQ": [{"0" : "In this country, the trains here are never late!","1" : "The country does not have a designated national animal","2" : "It's captail city is the largest in the world!"}]
+
+    },
+    {
+        "id":1,
+        "place":"Phillippines",
+        "img":[{"0":"./assets/phill/phil1.jpg","1":"./assets/phill/phil2.jpg", "2":"./assets/phill/phil3.jpg"}],
+        "fact":"There are over 175 different lanagugues spoken in the Phillippines!", 
+        "hintQ": [{"1" : "This country has over 7500 islands!","2" : "This countries national animal is the carabao!","3" : "Has the worlds largest underground river!"}]
+    },
+    {
+        "id":2,
+        "place":"Malaysia",
+        "img":[{"0":"./assets/mayla/may1.jpg","1":"./assets/mayla/may2.jpg", "2":"./assets/mayla/may3.jpg"}],
+        "fact":"Malaysia's national flag was designed in a competition!",
+        "hintQ": [{"1" : "The national fruit of this country is Papaya","2" : "This country has the largest population of king cobras in the world!","3" : "It's the 9th most visited country in the world!"}]
+    },
+    {
+        "id":3,
+        "place":"Cambodia",
+        "img":[{"0":"./assets/cambo/camb1.jpg","1":"./assets/cambo/camb2.jpg", "2":"./assets/cambo/camb3.jpg"}],
+        "fact":"Cambodia doesnt have a McDonalds!",
+        "hintQ": [{"1" : "This countries flag is the only one that features a building!","2" : "Birthdays aren't celebrated here.","3" : "The national flower of this counrty is the Rumduol!"}]
+    },
+    {
+        "id":4,
+        "place":"Pakistan",
+        "img":[{"0":"./assets/pakistan/pak1.jpg","1":"./assets/pakistan/pak2.jpg", "2":"./assets/parkistan/pak3.jpg"}],
+        "fact":"Pakistan has the worlds largest deep sea port! A hub for world trade!",
+        "hintQ": [{"1" : "Has the worlds second largest salt mine!","2" : "The national animal of this country is the markhor!","3" : "This counrty has the least powerful passport in the world."}]
+    }
+    
+]

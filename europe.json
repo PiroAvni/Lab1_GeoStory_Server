@@ -1,0 +1,39 @@
+[
+    {
+        "id":0,
+        "place":"United Kingdom?",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact",
+        "hintQ": [{"1" : "","2" : "hint2","3" : "hint3"}]
+
+    },
+    {
+        "id":1,
+        "place":"Cyprus",
+        "img":["imgurl/.jpg/.gif"],
+        "fact":"fun fact:", 
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    },
+    {
+        "id":2,
+        "place":"Italy",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact: ",
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    },
+    {
+        "id":3,
+        "place":"Spain",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact: ",
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    },
+    {
+        "id":4,
+        "place":"Norway",
+        "img":"imgurl/.jpg/.gif",
+        "fact":"fun fact: ",
+        "hintQ": [{"1" : "hint 1","2" : "hint2","3" : "hint3"}]
+    }
+    
+]
