@@ -16,14 +16,20 @@ app.use(logger);
 
 
 
-app.get("https://geostory-server.onrender.com/", (req, res, next) => {
+app.get("/", (req, res) => {
     res.send("Welcome to the GeoStory API!");
   
   });
 
-  app.get("https://geostory-server.onrender.com/africa", (req, res, next) => {
+  app.get("/africa", (req, res ) => {
     res.send(africa);
   
+  });
+
+  app.get("/random/africa", (req, res) => {
+    const randIdx = Math.floor(Math.random() * africa.length);
+    res.send(africa[randIdx]);
+   
   });
 
 module.exports = app;
