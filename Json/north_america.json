@@ -1,0 +1,97 @@
+[
+    {
+        "id": 0,
+        "location": "Mexico",
+        "img": [
+            {
+                "1": "./assests/",
+                "2": "./assests/",
+                "3": "./assests/"
+            }
+        ],
+        "fact": "Our first facts about Mexico is about its independence. Formerly part of New Spain, Mexico gained independence after a long, bloody war against its colonial overlords to become the First Mexican Empire. It then became the First Mexican Republic in 1824, but today, it's the United Mexican States. Human civilization in Mexico is thought to date back to at least 8,000 BC. This is where you will find the Olmec, Toltec, Teotihuacan, Zapotec, Mayan, and Aztec empires. This puts Mexico up there with the other so-called cradles Ancient India, Egypt, China, Peru, and Mesopotamia. You can also find some fantastic ruins in Valladolid!. Once an ancient city with a population of around 150,000 people set on an island in the middle of a lake, Tenochtitlan seemed like a suitable place for the Mexican capital. Colonial folks set about filling in the lake, reclaiming land, and building what became Ciudad de Mexico.",
+        "hintQ": [
+            {
+                "1": "",
+                "2": "",
+                "3": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "location": "",
+        "img": [
+            {
+                "1": "./assests/",
+                "2": "./assests/",
+                "3": "./assests/"
+            }
+        ],
+        "fact": "",
+        "hintQ": [
+            {
+                "1": "",
+                "2": "",
+                "3": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "location": "",
+        "img": [
+            {
+                "1": "./assests/",
+                "2": "./assests/",
+                "3": "./assests/"
+            }
+        ],
+        "fact": " ",
+        "hintQ": [
+            {
+                "1": "",
+                "2": "",
+                "3": ""
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "location": "",
+        "img": [
+            {
+                "1": "./assests/",
+                "2": "./assests/",
+                "3": "./assests/"
+            }
+        ],
+        "fact": "",
+        "hintQ": [
+            {
+                "1": "",
+                "2": "",
+                "3": ""
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "location": "",
+        "img": [
+            {
+                "1": "./assests/",
+                "2": "./assests/",
+                "3": "./assests/"
+            }
+        ],
+        "fact": "",
+        "hintQ": [
+            {
+                "1": "",
+                "2": "",
+                "3": ""
+            }
+        ]
+    }
+]
