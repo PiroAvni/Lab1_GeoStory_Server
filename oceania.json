@@ -2,38 +2,38 @@
     {
         "id":0,
         "place":"New Zealand",
-        "img":[{"0":"./assets/newZea/newZ1.jpg"},{"1":"./assets/newZea/newZ2.jpg"},{"2":"./assets/newZea/newZ3.jpg"}],
+        "img":[{"num":"./assets/newZea/newZ1.jpg"},{"num":"./assets/newZea/newZ2.jpg"},{"num":"./assets/newZea/newZ3.jpg"}],
         "fact":"Theres a hill in New Zealand that has the world's longest name. Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu",
-        "hintQ": [{"1" : "There are more sheep then people in this country"},{"2" : "The Lord of the Rings was filmed here."},{"3" : "It has a lake thats has the cleanest water in the world!"}]
+        "hintQ": [{"num" : "There are more sheep then people in this country"},{"num" : "The Lord of the Rings was filmed here."},{"num" : "It has a lake thats has the cleanest water in the world!"}]
 
     },
     {
         "id":1,
         "place":"Fiji",
-        "img":[{"0":"./assets/fiji/fiji1.jpg"},{"1":"./assets/fiji/fiji2.jpg"},{"2":"./assets/fiji/fiji2.jpg"}],
+        "img":[{"num":"./assets/fiji/fiji1.jpg"},{"num":"./assets/fiji/fiji2.jpg"},{"num":"./assets/fiji/fiji2.jpg"}],
         "fact":"The most popular sport of Fiji is Rugby!", 
-        "hintQ": [{"1" : "The place of origin of fire walkers."},{"2" : "This countries national animal is the iguana"},{"3" : "One of the only countries with 3 offical languages. English, ITaukei and Hindi."}]
+        "hintQ": [{"num" : "The place of origin of fire walkers."},{"num" : "This countries national animal is the iguana"},{"num" : "One of the only countries with 3 offical languages. English, ITaukei and Hindi."}]
     },
     {
         "id":2,
         "place":"Cook Island",
-        "img":[{"0": "./assets/cook/cook1.jpg"}, {"1": "./assets/cook/cook2.jpg"},{ "2": "./assets/cook/cook3.jpg"}],
+        "img":[{"num": "./assets/cook/cook1.jpg"}, {"num": "./assets/cook/cook2.jpg"},{ "num": "./assets/cook/cook3.jpg"}],
         "fact":"In the Cook Islands no house can be taller then a couconut tree.",
-        "hintQ": [{"1" : "This place is the second largest producers of black pearls"},{"2" : "There are no poisonous spiders or snakes here."},{"3" : "More people who are from here live overseas than here!"}]
+        "hintQ": [{"num" : "This place is the second largest producers of black pearls"},{"num" : "There are no poisonous spiders or snakes here."},{"num" : "More people who are from here live overseas than here!"}]
     },
     {
         "id":3,
         "place":"Kiribati",
-        "img":[{"0":"./assets/kiriba/kiri1.jpg"},{"1":"./assets/kiriba/kiri2.jpg"},{"2":"./assets/kiriba/kiri3.jpg"}],
+        "img":[{"num":"./assets/kiriba/kiri1.jpg"},{"num":"./assets/kiriba/kiri2.jpg"},{"num":"./assets/kiriba/kiri3.jpg"}],
         "fact":"Kiribati is the only nation in all 4 hemispheres of the world and is the first to ring in the new year!",
-        "hintQ": [{"1" : "Is home to the world’s largest designated Marine Protected Area."},{"2" : "This country only has one road!"},{"3" : "Is one of the 21 countries without a army."}]
+        "hintQ": [{"num" : "Is home to the world’s largest designated Marine Protected Area."},{"num" : "This country only has one road!"},{"num" : "Is one of the 21 countries without a army."}]
     },
     {
         "id":4,
         "place":"Samoa",
-        "img":[{"0":"./assets/samoa/samoa1.jpg"},{"1":"./assets/samoa/samoa2.jpg"},{"2":"./assets/samoa/samoa3.jpg"}],
+        "img":[{"num":"./assets/samoa/samoa1.jpg"},{"num":"./assets/samoa/samoa2.jpg"},{"num":"./assets/samoa/samoa3.jpg"}],
         "fact":"Samoa is alwasy running 24 hours ahead of its neigbours, since it skipped a day in 2011.",
-        "hintQ": [{"1" : "The author of Treasure Island lived here!"},{"2" : "Has many magical warerfalls such as Togitogiga."},{"3" : "The national bird of this country is the Manumea AKA tooth-billed pigeon"}]
+        "hintQ": [{"num" : "The author of Treasure Island lived here!"},{"num" : "Has many magical warerfalls such as Togitogiga."},{"num" : "The national bird of this country is the Manumea AKA tooth-billed pigeon"}]
     }
     
 ]

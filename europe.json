@@ -1,39 +1,39 @@
 [
     {
         "id":0,
-        "place":"United Kingdom?",
+        "place":"Ireland",
         "img":"imgurl/.jpg/.gif",
         "fact":"fun fact",
-        "hintQ": [{"1" : ""},{"2" : "hint2"},{"3" : "hint3"}]
+        "hintQ": [{"num" : ""},{"num" : "hint2"},{"num" : "hint3"}]
 
     },
     {
         "id":1,
         "place":"Cyprus",
         "img":["imgurl/.jpg/.gif"],
-        "fact":"fun fact:", 
-        "hintQ": [{"1" : "hint 1"},{"2" : "hint2"},{"3" : "hint3"}]
+        "fact":"Cyprus is know as the island of love", 
+        "hintQ": [{"num" : "The only other country to hold a british royal wedding! All the way from 1191! "},{"num" : "The home Of Halloumi."},{"num" : "There are more stray cats then residents here"}]
     },
     {
         "id":2,
         "place":"Italy",
         "img":"imgurl/.jpg/.gif",
         "fact":"fun fact: ",
-        "hintQ": [{"1" : "hint 1"},{"2" : "hint2"},{"3" : "hint3"}]
+        "hintQ": [{"num" : "hint 1"},{"num" : "hint2"},{"num" : "hint3"}]
     },
     {
         "id":3,
         "place":"Spain",
         "img":"imgurl/.jpg/.gif",
         "fact":"fun fact: ",
-        "hintQ": [{"1" : "hint 1"},{"2" : "hint2"},{"3" : "hint3"}]
+        "hintQ": [{"num" : "hint 1"},{"num" : "hint2"},{"num" : "hint3"}]
     },
     {
         "id":4,
         "place":"Norway",
         "img":"imgurl/.jpg/.gif",
         "fact":"fun fact: ",
-        "hintQ": [{"1" : "hint 1"},{"2" : "hint2"},{"3" : "hint3"}]
+        "hintQ": [{"num" : "hint 1"},{"num" : "hint2"},{"num" : "hint3"}]
     }
     
 ]
