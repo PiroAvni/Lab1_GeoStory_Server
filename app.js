@@ -34,7 +34,19 @@ app.get('/Europe',(req,res) => {
 app.get('/Europe/random', (req,res) => {
     //const id = req.params.id;
     const randEU = Math.round(Math.random()*europe.length);
-    res.send(asia[randEU]);
+    res.send(europe[randEU]);
 })
+
+//////////////////////////////////////////////////////////////////////////
+
+app.get('/Oceania',(req,res) => {
+    res.send(oceania)
+})
+app.get('/Oceania/random', (req,res) => {
+    //const id = req.params.id;
+    const randOceania = Math.round(Math.random()*oceania.length);
+    res.send(oceania[randOceania]);
+})
+
 
 module.exports =app;
