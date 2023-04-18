@@ -3,7 +3,7 @@
         "id":0,
         "place":"Japan",
         "img":[{"num":"./assets/japan/japan1.jpg"},{"num":"./assets/japan/japan2.jpg"},{ "num":"./assets/japan/japan3.jpg"}],
-        "fact":"Japan has an island called Ao Island in Ozu, where the number of cats outnumber humans by 36:1!",
+        "fact":"JJapan has over 5 million vending machines",
         "hintQ": [{"num" : "In this country, the trains here are never late!"},{"num" : "The country does not have a designated national animal"},{"num" : "It's captail city is the largest in the world!"}]
 
     },
