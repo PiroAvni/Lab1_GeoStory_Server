@@ -4,93 +4,133 @@
         "location": "Mexico",
         "img": [
             {
-                "1": "./assests/",
-                "2": "./assests/",
-                "3": "./assests/"
+                "num": "../assests/north_amercia/Mexico-City-you-Cant-Miss-SQUARE.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/Mexico_landmark.jpg"
+            },
+            {
+                "num": "../assests/south_amercia/mexico_palacio-bellas-artes.jpg"
             }
         ],
-        "fact": "Our first facts about Mexico is about its independence. Formerly part of New Spain, Mexico gained independence after a long, bloody war against its colonial overlords to become the First Mexican Empire. It then became the First Mexican Republic in 1824, but today, it's the United Mexican States. Human civilization in Mexico is thought to date back to at least 8,000 BC. This is where you will find the Olmec, Toltec, Teotihuacan, Zapotec, Mayan, and Aztec empires. This puts Mexico up there with the other so-called cradles Ancient India, Egypt, China, Peru, and Mesopotamia. You can also find some fantastic ruins in Valladolid!. Once an ancient city with a population of around 150,000 people set on an island in the middle of a lake, Tenochtitlan seemed like a suitable place for the Mexican capital. Colonial folks set about filling in the lake, reclaiming land, and building what became Ciudad de Mexico.",
+        "fact": "  Formerly part of New Spain, Mexico gained independence after a long, bloody war against its colonial overlords to become the First Mexican Empire. ",
         "hintQ": [
             {
-                "1": "was a colony of Spain for over 300 years.",
-                "2": "",
-                "3": ""
+                "num": "was a colony of Spain for over 300 years."
+            },
+            {
+                "num": "4th Largest Nation In The Americas"
+            },
+            {
+                "num": "Pesos Were The First Global Currency"
             }
         ]
     },
     {
         "id": 1,
-        "location": "",
+        "location": "United States of America",
         "img": [
             {
-                "1": "./assests/",
-                "2": "./assests/",
-                "3": "./assests/"
+                "num": "../assests/north_amercia/USA_-mount-rushmore-south-dakota.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/american-landmarks-statue-of-liberty_1.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/usa_hollywood.jpg"
             }
         ],
-        "fact": "",
+        "fact": " On December 7, 1941, the Imperial Japanese Navy Air Service struck the United States naval base at Pearl Harbor, Hawaii Territory. The attack directly led to the United States’ entrance into World War Two. Japan’s failure to surrender, together with the possibility of hundreds of thousands of casualties, motivated President Truman to drop an atomic bomb on the Japanese city of Hiroshima. ",
         "hintQ": [
             {
-                "1": "",
-                "2": "",
-                "3": ""
+                "num": "Washington DC is not a state!"
+            },
+            {
+                "num": "celebrates Independence Day from the British Empire on July 4"
+            },
+            {
+                "num": "first humans migrated into North America at least 12,000 years ago"
             }
         ]
     },
     {
-        "id": 2,
-        "location": "",
+        "id":2,
+        "location": "Canada",
         "img": [
             {
-                "1": "./assests/",
-                "2": "./assests/",
-                "3": "./assests/"
+                "num": "../assests/north_amercia/Canada_1.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/Canada_2.jpg"
+            },
+            {
+                "num": "../assests//north_amercia/canada_3.jpg"
             }
         ],
-        "fact": " ",
+        "fact": " Canada became a country on July 1, 1867, when the British Parliament passed the British North America Act Yet, Canada only got its own flag 100 years after it became a country on February 15,1965. ",
         "hintQ": [
             {
-                "1": "",
-                "2": "",
-                "3": ""
+                "num": "became a country on July 1, 1867, when the British Parliament passed the British North America Act"
+            },
+            {
+                "num": "only got its own flag 100 years after it became a country"
+            },
+            {
+                "num": "the second-largest country in the world."
             }
         ]
     },
     {
         "id": 3,
-        "location": "",
+        "location": "Jamaica",
         "img": [
             {
-                "1": "./assests/",
-                "2": "./assests/",
-                "3": "./assests/"
+                "num": "../assests/north_amercia/Jamaica_Bob-Marley-Museum.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/Jamaica_2.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/Jamaica-3.jpg"
             }
         ],
-        "fact": "",
+        "fact": "Most of the population lives in the city and one third of all Jamaicans live in the capital of Kingston. More than 90 percent of the population is of African descent, but many other people have come from China, India, Germany, and Syria to find work on the island. ",
         "hintQ": [
             {
-                "1": "",
-                "2": "",
-                "3": ""
+                "num": "It is the third-largest island in the Caribbean"
+            },
+            {
+                "num": " sits on top of a large underwater mountain"
+            },
+            {
+                "num": " first Caribbean country to launch a website"
             }
         ]
     },
     {
         "id": 4,
-        "location": "",
+        "location": "Cuba",
         "img": [
             {
-                "1": "./assests/",
-                "2": "./assests/",
-                "3": "./assests/"
+                "num": "/assests/north_amercia/famous-landmarks-in-cuba.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/cuba_3.jpg"
+            },
+            {
+                "num": "../assests/north_amercia/Canada_1.jpg"
             }
         ],
-        "fact": "",
+        "fact": "The first European to reach Cuba was Christopher Columbus in 1492. ",
         "hintQ": [
             {
-                "1": "",
-                "2": "",
-                "3": ""
+                "num": "highest literacy rates in the world"
+            },
+            {
+                "num": "Dominoes is a national Cuban past-time"
+            },
+            {
+                "num": "main music genre is Son"
             }
         ]
     }

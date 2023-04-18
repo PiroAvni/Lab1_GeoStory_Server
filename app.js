@@ -31,5 +31,10 @@ app.get("/", (req, res) => {
     res.send(africa[randIdx]);
    
   });
+  app.get("/random/africa:img",(req, res) => {
+    const randIdx = forEach(el => el.params.img);
+console.log(randIdx)
+    //res.send(africa[randIdx]);
+  })
 
 module.exports = app;
