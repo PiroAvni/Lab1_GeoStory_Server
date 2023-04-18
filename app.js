@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const africa  = require("./Json/africa.json");
 const north_america  = require("./Json/north_america.json");
-
+const south_america  = require("./Json/south_america.json");
 
 
 const logger = require("./logger/logger");
@@ -36,10 +36,11 @@ app.get("/", (req, res) => {
     res.send(north_america[randIdx]);
    
   });
-  app.get("/random/africa:img",(req, res) => {
-    const randIdx = forEach(el => el.params.img);
-console.log(randIdx)
-    //res.send(africa[randIdx]);
-  })
 
+  app.get("/random/south_america", (req, res) => {
+    const randIdx = Math.floor(Math.random() * south_america.length);
+    res.send(south_america[randIdx]);
+   
+  });
+ 
 module.exports = app;
