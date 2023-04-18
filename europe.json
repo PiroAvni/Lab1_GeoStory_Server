@@ -30,10 +30,10 @@
     },
     {
         "id":4,
-        "place":"Norway",
-        "img":"imgurl/.jpg/.gif",
-        "fact":"fun fact: ",
-        "hintQ": [{"num" : "hint 1"},{"num" : "hint2"},{"num" : "hint3"}]
+        "place":"Finland",
+        "img":[{"num":"./assets/finland/fin1.jpg"},{"num":"./assets/finland/fin2.jpg"},{"num":"./assets/finland/fin3.jpg"}],
+        "fact":"Finland is the go to place to see the northern lights.",
+        "hintQ": [{"num" : "The worlds biggest coffee drinkers live here!"},{"num" : "This country loves saunas"},{"num" : "Over 70% of this country is forests."}]
     }
     
 ]
