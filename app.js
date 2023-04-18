@@ -22,8 +22,7 @@ app.get('/Asia',(req,res) => {
     res.send(asia)
 })
 app.get('/Asia/random', (req,res) => {
-    //const id = req.params.id;
-    const randAsia = Math.round(Math.random()*asia.length);
+    const randAsia = Math.floor(Math.random()*asia.length);
     res.send(asia[randAsia]);
 })
 
@@ -32,8 +31,7 @@ app.get('/Europe',(req,res) => {
     res.send(europe)
 })
 app.get('/Europe/random', (req,res) => {
-    //const id = req.params.id;
-    const randEU = Math.round(Math.random()*europe.length);
+    const randEU = Math.floor(Math.random()*europe.length);
     res.send(europe[randEU]);
 })
 
@@ -43,8 +41,7 @@ app.get('/Oceania',(req,res) => {
     res.send(oceania)
 })
 app.get('/Oceania/random', (req,res) => {
-    //const id = req.params.id;
-    const randOceania = Math.round(Math.random()*oceania.length);
+    const randOceania = Math.floor(Math.random()*oceania.length);
     res.send(oceania[randOceania]);
 })
 
