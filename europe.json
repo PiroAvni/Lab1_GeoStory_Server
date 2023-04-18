@@ -17,9 +17,9 @@
     {
         "id":2,
         "place":"Italy",
-        "img":"imgurl/.jpg/.gif",
-        "fact":"fun fact: ",
-        "hintQ": [{"num" : "hint 1"},{"num" : "hint2"},{"num" : "hint3"}]
+        "img":[{"num":"./assets/italy/italy1.jpg"},{},{}],
+        "fact":"14 Billion espressos are consumed in Italy evry year!",
+        "hintQ": [{"num" : "home to Europe's only 3 active volcano"},{"num" : "Banks started here"},{"num" : "The people here eat salad for dessert"}]
     },
     {
         "id":3,
