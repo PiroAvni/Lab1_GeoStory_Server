@@ -2,9 +2,9 @@
     {
         "id":0,
         "place":"Ireland",
-        "img":"imgurl/.jpg/.gif",
-        "fact":"fun fact",
-        "hintQ": [{"num" : ""},{"num" : "hint2"},{"num" : "hint3"}]
+        "img":[{"num":"./assets/ireland/ireland1.jpg"},{"num":"./assets/ireland/ireland2.jpg"},{"num":"./assets/ireland/ireland3.jpg"}],
+        "fact":"Ireland is the most successful country in eurovision!",
+        "hintQ": [{"num" : "Halloween orginated in this country!"},{"num" : "Count Dracula was written by a author from here!"},{"num" : "Luck of the _____"}]
 
     },
     {
