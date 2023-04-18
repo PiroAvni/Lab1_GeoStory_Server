@@ -17,23 +17,23 @@
     {
         "id":2,
         "place":"Cook Island",
-        "img":[{"0": "./assets/cook/cook1.jpg"}, {"1": "./assets/cook/cook2.jpg"},{ "0": "./assets/cook/cook3.jpg"}],
+        "img":[{"0": "./assets/cook/cook1.jpg"}, {"1": "./assets/cook/cook2.jpg"},{ "2": "./assets/cook/cook3.jpg"}],
         "fact":"In the Cook Islands no house can be taller then a couconut tree.",
         "hintQ": [{"1" : "This place is the second largest producers of black pearls"},{"2" : "There are no poisonous spiders or snakes here."},{"3" : "More people who are from here live overseas than here!"}]
     },
     {
         "id":3,
         "place":"Kiribati",
-        "img":"imgurl/.jpg/.gif",
-        "fact":"In the ",
-        "hintQ": [{"1" : ""},{"2" : "hint2"},{"3" : "hint3"}]
+        "img":[{"0":"./assets/kiriba/kiri1.jpg"},{"1":"./assets/kiriba/kiri2.jpg"},{"2":"./assets/kiriba/kiri3.jpg"}],
+        "fact":"Kiribati is the only nation in all 4 hemispheres of the world and is the first to ring in the new year!",
+        "hintQ": [{"1" : "Is home to the world’s largest designated Marine Protected Area."},{"2" : "This country only has one road!"},{"3" : "Is one of the 21 countries without a army."}]
     },
     {
         "id":4,
         "place":"Samoa",
-        "img":"imgurl/.jpg/.gif",
-        "fact":"fun fact: ",
-        "hintQ": [{"1" : "hint 1"},{"2" : "hint2"},{"3" : "hint3"}]
+        "img":[{"0":"./assets/samoa/samoa1.jpg"},{"1":"./assets/samoa/samoa2.jpg"},{"2":"./assets/samoa/samoa3.jpg"}],
+        "fact":"Samoa is alwasy running 24 hours ahead of its neigbours, since it skipped a day in 2011.",
+        "hintQ": [{"1" : "The author of Treasure Island lived here!"},{"2" : "Has many magical warerfalls such as Togitogiga."},{"3" : "The national bird of this country is the Manumea AKA tooth-billed pigeon"}]
     }
     
 ]
