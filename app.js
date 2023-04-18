@@ -29,7 +29,7 @@ app.get("/Africa/Random", (req, res) => {
 });
 
 // North Americas
-app.get("/North_Americas/", (req, res) => {
+app.get("/North_Americas", (req, res) => {
   const randIdx = Math.floor(Math.random() * north_america.length);
   res.send(north_america[randIdx]);
 });

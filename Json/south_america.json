@@ -4,13 +4,13 @@
         "location": "Brazil",
         "img": [
             {
-                "num": "../assests/south_america/Brazil_1.jpg"
+                "num": "../assets/south_america/Brazil_1.jpg"
             },
             {
-                "num": "../assests/south_america/Brazil_2.jpg"
+                "num": "../assets/south_america/Brazil_2.jpg"
             },
             {
-                "num": "../assests/south_america/Brazil_3.jpg"
+                "num": "../assets/south_america/Brazil_3.jpg"
             }
         ],
         "fact": "Lots of people think Rio de Janeiro is the Capital but it’s actually Brasilia. Other big cities include Sao Paulo, Salvador and Fortaleza. ",
@@ -31,13 +31,13 @@
         "location": "Argentina",
         "img": [
             {
-                "num": "../assests/south_america/Argentina_1.jpg"
+                "num": "../assets/south_america/Argentina_1.jpg"
             },
             {
-                "num": "../assests/south_america/Argentina_2.jpg"
+                "num": "../assets/south_america/Argentina_2.jpg"
             },
             {
-                "num": "../assests/south_america/Argentina_3.jpg"
+                "num": "../assets/south_america/Argentina_3.jpg"
             }
         ],
         "fact": " Argentina covers a vast landscape that stretches over 1,068,296 square miles, making it the eighth-largest country in the world. It is the second-largest nation in South America after Brazil and has a population of over 46 million people. ",
@@ -58,13 +58,13 @@
         "location": "Uruguay",
         "img": [
             {
-                "num": "../assests/south_america/Uruguay_1.jpg"
+                "num": "../assets/south_america/Uruguay_1.jpg"
             },
             {
-                "num": "../assests/south_america//Uruguay_2.jpg"
+                "num": "../assets/south_america//Uruguay_2.jpg"
             },
             {
-                "num": "../assests/south_america/Uruguay_3.jpg"
+                "num": "../assets/south_america/Uruguay_3.jpg"
             }
         ],
         "fact": " 100% of Uruguay's electricity comes from renewable sources ",
@@ -85,13 +85,13 @@
         "location": "Peru",
         "img": [
             {
-                "num":  "../assests/south_america/Peru_1.jpg"
+                "num":  "../assets/south_america/Peru_1.jpg"
             },
             {
-                "num":  "../assests/south_america/Peru_2.jpg"
+                "num":  "../assets/south_america/Peru_2.jpg"
             },
             {
-                "num":  "../assests/south_america//Peru_3.jpg"
+                "num":  "../assets/south_america//Peru_3.jpg"
             }
         ],
         "fact": "The capital city of Peru is Lima, has a population over 33 million",
@@ -112,13 +112,13 @@
         "location": "Chile",
         "img": [
             {
-                "num":"../assests/south_america/Chile_1.jpg"
+                "num":"../assets/south_america/Chile_1.jpg"
             },
             {
-                "num": "../assests/south_america/Chile_2.jpg"
+                "num": "../assets/south_america/Chile_2.jpg"
             },
             {
-                "num": "../assests/south_america/Chile_3.jpg"
+                "num": "../assets/south_america/Chile_3.jpg"
             }
         ],
         "fact": "Chile occupies 756,096.3 km2 (291,930.4 square miles), making it the seventh-largest of the 12 South American countries. However, it extends for a whopping 4,329 kilometers (2689.916 miles) from north to south",
