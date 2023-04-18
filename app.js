@@ -16,7 +16,7 @@ app.use(logger);
 
 
 
-app.get("https://geostory-server.onrender.com", (req, res, next) => {
+app.get("https://geostory-server.onrender.com/", (req, res, next) => {
     res.send("Welcome to the GeoStory API!");
   
   });
