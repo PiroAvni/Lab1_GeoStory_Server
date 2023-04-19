@@ -4,7 +4,7 @@
         "location": "Ancient Egyptian-Egypt",
         "img": [
             {
-                "num": "../assets/africa//Egypt_1.jpg"
+                "num": "../assets/africa/Egypt_1.jpg"
             },
             {
                 "num": "../assets/africa/Egypt_2.jpg"
@@ -31,13 +31,13 @@
         "location": "Ethiopia -Lalibela",
         "img": [
             {
-                "num": "../assets/africa//Ethiopia-_1.jpg"
+                "num": "../assets/africa/Ethiopia-_1.jpg"
             },
             {
-                "num": "../assets/africa//Ethiopia_2.jpg"
+                "num": "../assets/africa/Ethiopia_2.jpg"
             },
             {
-                "num": "../assets/africa//Ethiopia_3.jpg"
+                "num": "../assets/africa/Ethiopia_3.jpg"
             }
         ],
         "fact": "King Lalibela instigated the construction of 11 monolithic churches, allegedly in attempt to build a ‘New Jerusalem’. There was unrest and conflict, with Muslim conquests making Christian pilgrimages to the holy land difficult. ",
@@ -64,7 +64,7 @@
                 "num": "../assets/africa/South_Africa_2.jpg"
             },
             {
-                "num": "../assets/africa//South_Africa_3.jpeg"
+                "num": "../assets/africa/South_Africa_3.jpeg"
             }
         ],
         "fact": "The prison island that Nelson Mandela was imprisoned in for 18 of his 27 year sentence, and just a short trip from the coast of Cape Town. The island was first used a prison in the 17th Century, but was also used as a leper colony and for quarantine purposes. ",
