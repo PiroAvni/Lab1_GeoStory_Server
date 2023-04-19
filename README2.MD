@@ -18,6 +18,7 @@ npm i
 npm run dev
 ```
  #### A Side Note:
+
  #### Scripts
 This page is specific to the scripts in the package.json file; what they do and why we have them.
 
@@ -27,10 +28,10 @@ To run the template locally, `run npm run dev`.
 When this command is run, it will make use of code within the dev-scripts folder.
 > 
 
-When you'd like to test your app in production, or package it for distribution, please navigate to [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/scripts.md) for more details on how to do this.
+
 
 ## Demo
-![Demo](https://github.com/reZach/secure-electron-template/blob/master/docs/imgs/intro.gif "Demo")
+![Demo](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/Demo-Server.gif "Demo")
 
 ## Features
 Taken from the [best-practices](https://electronjs.org/docs/tutorial/security) official page, here is what this repository offers!
