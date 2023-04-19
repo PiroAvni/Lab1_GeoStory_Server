@@ -4,13 +4,13 @@
         "location": "Mexico",
         "img": [
             {
-                "num": "../assets/images///Mexico_1.jpg"
+                "num": "../assets/north_amercia/Mexico_1.jpg"
             },
             {
-                "num": "../assets/images//Mexico_2.jpg"
+                "num": "../assets/north_amercia/Mexico_2.jpg"
             },
             {
-                "num":  "../assets/images//Mexico_3.jpg"
+                "num":  "../assets/north_amercia/Mexico_3.jpg"
             }
         ],
         "fact": "  Formerly part of New Spain, Mexico gained independence after a long, bloody war against its colonial overlords to become the First Mexican Empire. ",
@@ -31,13 +31,13 @@
         "location": "United States of America",
         "img": [
             {
-                "num": "../assets/images//USA_1.jpg"
+                "num": "../assets/north_amercia/USA_1.jpg"
             },
             {
-                "num": "../assets/images//USA_2.jpg"
+                "num": "../assets/north_amercia/USA_2.jpg"
             },
             {
-                "num": "../assets/images//USA_3.jpg"
+                "num": "../assets/north_amercia/USA_3.jpg"
             }
         ],
         "fact": " On December 7, 1941, the Imperial Japanese Navy Air Service struck the United States naval base at Pearl Harbor, Hawaii Territory. The attack directly led to the United States’ entrance into World War Two. Japan’s failure to surrender, together with the possibility of hundreds of thousands of casualties, motivated President Truman to drop an atomic bomb on the Japanese city of Hiroshima. ",
@@ -58,13 +58,13 @@
         "location": "Canada",
         "img": [
             {
-                "num": "../assets/images//Canada_1.jpg"
+                "num": "../assets/north_amercia/Canada_1.jpg"
             },
             {
-                "num": "../assets/images//Canada_2.jpg"
+                "num": "../assets/north_amercia/Canada_2.jpg"
             },
             {
-                "num": "../assets/images///north_amercia/Canada_3.jpg"
+                "num": "../assets/north_amercia/north_amercia/Canada_3.jpg"
             }
         ],
         "fact": " Canada became a country on July 1, 1867, when the British Parliament passed the British North America Act Yet, Canada only got its own flag 100 years after it became a country on February 15,1965. ",
@@ -85,13 +85,13 @@
         "location": "Jamaica",
         "img": [
             {
-                "num": "../assets/images///Jamaica_1.jpg"
+                "num": "../assets/north_amercia/Jamaica_1.jpg"
             },
             {
-                "num": "../assets/images//Jamaica_2.jpg"
+                "num": "../assets/north_amercia/Jamaica_2.jpg"
             },
             {
-                "num": "../assets/images//Jamaica-3.jpg"
+                "num": "../assets/north_amercia/Jamaica-3.jpg"
             }
         ],
         "fact": "Most of the population lives in the city and one third of all Jamaicans live in the capital of Kingston. More than 90 percent of the population is of African descent, but many other people have come from China, India, Germany, and Syria to find work on the island. ",
@@ -112,13 +112,13 @@
         "location": "Cuba",
         "img": [
             {
-                "num": "../assets/images//Cuba_1.jpg"
+                "num": "../assets/north_amercia/Cuba_1.jpg"
             },
             {
-                "num": "../assets/images//cuba_2.jpg"
+                "num": "../assets/north_amercia/cuba_2.jpg"
             },
             {
-                "num": "../assets/images//Cuba_3.jpg"
+                "num": "../assets/north_amercia/Cuba_3.jpg"
             }
         ],
         "fact": "The first European to reach Cuba was Christopher Columbus in 1492. ",

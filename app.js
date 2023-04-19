@@ -32,20 +32,20 @@ app.get("/Africa/random", (req, res) => {
 });
 
 // North Americas
-app.get("/North_Americas", (req, res) => {
+app.get("/North_America", (req, res) => {
   res.send(north_america);
 });
 
-app.get("/North_Americas/random", (req, res) => {
+app.get("/North_America/random", (req, res) => {
   const randNA = Math.floor(Math.random() * north_america.length);
   res.send(north_america[randNA]);
 });
 
 // South Americas
-app.get("South_Americas/", (req, res) => {
+app.get("South_America/", (req, res) => {
   res.send(south_america);
 });
-app.get("/South_Americas/random", (req, res) => {
+app.get("/South_America/random", (req, res) => {
   const randSA = Math.floor(Math.random() * south_america.length);
   res.send(south_america[randSA]);
 });
