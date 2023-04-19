@@ -1,39 +1,137 @@
 [
     {
-        "id":0,
-        "place":"New Zealand",
-        "img":[{"num":"../assets/newZea/newZ1.jpg"},{"num":"../assets/newZea/newZ2.jpg"},{"num":"../assets/newZea/newZ3.jpg"}],
-        "fact":"Theres a hill in New Zealand that has the world's longest name. Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu",
-        "hintQ": [{"num" : "There are more sheep then people in this country"},{"num" : "The Lord of the Rings was filmed here."},{"num" : "It has a lake thats has the cleanest water in the world!"}]
-
+        "id": 0,
+        "place": "New Zealand",
+        "img": [
+            {
+                "num": "../assets/newZea/newZ1.jpg"
+            },
+            {
+                "num": "../assets/newZea/newZ2.jpg"
+            },
+            {
+                "num": "../assets/newZea/newZ3.jpg"
+            }
+        ],
+        "fact": "Theres a hill in New Zealand that has the world's longest name. Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu",
+        "hintQ": [
+            {
+                "num": "There are more sheep then people in this country"
+            },
+            {
+                "num": "The Lord of the Rings was filmed here."
+            },
+            {
+                "num": "It has a lake thats has the cleanest water in the world!"
+            }
+        ]
     },
     {
-        "id":1,
-        "place":"Fiji",
-        "img":[{"num":"../assets/fiji/fiji1.jpg"},{"num":"../assets/fiji/fiji2.jpg"},{"num":"../assets/fiji/fiji2.jpg"}],
-        "fact":"The most popular sport of Fiji is Rugby!", 
-        "hintQ": [{"num" : "The place of origin of fire walkers."},{"num" : "This countries national animal is the iguana"},{"num" : "One of the only countries with 3 offical languages. English, ITaukei and Hindi."}]
+        "id": 1,
+        "place": "Fiji",
+        "img": [
+            {
+                "num": "../assets/fiji/fiji1.jpg"
+            },
+            {
+                "num": "../assets/fiji/fiji2.jpg"
+            },
+            {
+                "num": "../assets/fiji/fiji2.jpg"
+            }
+        ],
+        "fact": "The most popular sport of Fiji is Rugby!",
+        "hintQ": [
+            {
+                "num": "The place of origin of fire walkers."
+            },
+            {
+                "num": "This countries national animal is the iguana"
+            },
+            {
+                "num": "One of the only countries with 3 offical languages. English, ITaukei and Hindi."
+            }
+        ]
     },
     {
-        "id":2,
-        "place":"Cook Island",
-        "img":[{"num": "../assets/cook/cook1.jpg"}, {"num": "../assets/cook/cook2.jpg"},{ "num": "../assets/cook/cook3.jpg"}],
-        "fact":"In the Cook Islands no house can be taller then a couconut tree.",
-        "hintQ": [{"num" : "This place is the second largest producers of black pearls"},{"num" : "There are no poisonous spiders or snakes here."},{"num" : "More people who are from here live overseas than here!"}]
+        "id": 2,
+        "place": "Cook Island",
+        "img": [
+            {
+                "num": "../assets/cook/cook1.jpg"
+            },
+            {
+                "num": "../assets/cook/cook2.jpg"
+            },
+            {
+                "num": "../assets/cook/cook3.jpg"
+            }
+        ],
+        "fact": "In the Cook Islands no house can be taller then a couconut tree.",
+        "hintQ": [
+            {
+                "num": "This place is the second largest producers of black pearls"
+            },
+            {
+                "num": "There are no poisonous spiders or snakes here."
+            },
+            {
+                "num": "More people who are from here live overseas than here!"
+            }
+        ]
     },
     {
-        "id":3,
-        "place":"Kiribati",
-        "img":[{"num":"../assets/kiriba/kiri1.jpg"},{"num":"../assets/kiriba/kiri2.jpg"},{"num":"../assets/kiriba/kiri3.jpg"}],
-        "fact":"Kiribati is the only nation in all 4 hemispheres of the world and is the first to ring in the new year!",
-        "hintQ": [{"num" : "Is home to the world’s largest designated Marine Protected Area."},{"num" : "This country only has one road!"},{"num" : "Is one of the 21 countries without a army."}]
+        "id": 3,
+        "place": "Kiribati",
+        "img": [
+            {
+                "num": "../assets/kiriba/kiri1.jpg"
+            },
+            {
+                "num": "../assets/kiriba/kiri2.jpg"
+            },
+            {
+                "num": "../assets/kiriba/kiri3.jpg"
+            }
+        ],
+        "fact": "Kiribati is the only nation in all 4 hemispheres of the world and is the first to ring in the new year!",
+        "hintQ": [
+            {
+                "num": "Is home to the world’s largest designated Marine Protected Area."
+            },
+            {
+                "num": "This country only has one road!"
+            },
+            {
+                "num": "Is one of the 21 countries without a army."
+            }
+        ]
     },
     {
-        "id":4,
-        "place":"Samoa",
-        "img":[{"num":"../assets/samoa/samoa1.jpg"},{"num":"../assets/samoa/samoa2.jpg"},{"num":"../assets/samoa/samoa3.jpg"}],
-        "fact":"Samoa is alwasy running 24 hours ahead of its neigbours, since it skipped a day in 2011.",
-        "hintQ": [{"num" : "The author of Treasure Island lived here!"},{"num" : "Has many magical warerfalls such as Togitogiga."},{"num" : "The national bird of this country is the Manumea AKA tooth-billed pigeon"}]
+        "id": 4,
+        "place": "Samoa",
+        "img": [
+            {
+                "num": "../assets/samoa/samoa1.jpg"
+            },
+            {
+                "num": "../assets/samoa/samoa2.jpg"
+            },
+            {
+                "num": "../assets/samoa/samoa3.jpg"
+            }
+        ],
+        "fact": "Samoa is alwasy running 24 hours ahead of its neigbours, since it skipped a day in 2011.",
+        "hintQ": [
+            {
+                "num": "The author of Treasure Island lived here!"
+            },
+            {
+                "num": "Has many magical warerfalls such as Togitogiga."
+            },
+            {
+                "num": "The national bird of this country is the Manumea AKA tooth-billed pigeon"
+            }
+        ]
     }
-    
 ]
