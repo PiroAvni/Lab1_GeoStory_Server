@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "place": "New Zealand",
+        "location": "New Zealand",
         "img": [
             {
                 "num": "../assets/newZea/newZ1.jpg"
@@ -28,7 +28,7 @@
     },
     {
         "id": 1,
-        "place": "Fiji",
+        "location": "Fiji",
         "img": [
             {
                 "num": "../assets/fiji/fiji1.jpg"
@@ -55,7 +55,7 @@
     },
     {
         "id": 2,
-        "place": "Cook Island",
+        "location": "Cook Island",
         "img": [
             {
                 "num": "../assets/cook/cook1.jpg"
@@ -82,7 +82,7 @@
     },
     {
         "id": 3,
-        "place": "Kiribati",
+        "location": "Kiribati",
         "img": [
             {
                 "num": "../assets/kiriba/kiri1.jpg"
@@ -109,7 +109,7 @@
     },
     {
         "id": 4,
-        "place": "Samoa",
+        "location": "Samoa",
         "img": [
             {
                 "num": "../assets/samoa/samoa1.jpg"

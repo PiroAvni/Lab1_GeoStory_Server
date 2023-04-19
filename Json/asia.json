@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "place": "Japan",
+        "location": "Japan",
         "img": [
             {
                 "num": "../assets/japan/japan1.jpg"
@@ -28,7 +28,7 @@
     },
     {
         "id": 1,
-        "place": "Phillippines",
+        "location": "Phillippines",
         "img": [
             {
                 "num": "../assets/phill/phil1.jpg"
@@ -55,7 +55,7 @@
     },
     {
         "id": 2,
-        "place": "Malaysia",
+        "location": "Malaysia",
         "img": [
             {
                 "num": "../assets/mayla/may1.jpg"
@@ -82,7 +82,7 @@
     },
     {
         "id": 3,
-        "place": "Cambodia",
+        "location": "Cambodia",
         "img": [
             {
                 "num": "../assets/cambo/camb1.jpg"
@@ -109,7 +109,7 @@
     },
     {
         "id": 4,
-        "place": "Pakistan",
+        "location": "Pakistan",
         "img": [
             {
                 "num": "../assets/pakistan/pak1.jpg"

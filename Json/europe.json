@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "place": "Ireland",
+        "location": "Ireland",
         "img": [
             {
                 "num": "../assets/ireland/ireland1.jpg"
@@ -28,7 +28,7 @@
     },
     {
         "id": 1,
-        "place": "Cyprus",
+        "location": "Cyprus",
         "img": [
             {
                 "num": "../assets/cyprus/cyprus1.jpeg"
@@ -55,7 +55,7 @@
     },
     {
         "id": 2,
-        "place": "Italy",
+        "location": "Italy",
         "img": [
             {
                 "num": "../assets/italy/italy1.jpg"
@@ -82,7 +82,7 @@
     },
     {
         "id": 3,
-        "place": "Spain",
+        "location": "Spain",
         "img": [
             {
                 "num": "../assets/spain/spain1.jpg"
@@ -109,7 +109,7 @@
     },
     {
         "id": 4,
-        "place": "Finland",
+        "location": "Finland",
         "img": [
             {
                 "num": "../assets/finland/fin1.jpg"
