@@ -1,3 +1,9 @@
+[![Contributors][contributors-shield]][contributors-url]
+
+
+
+
+
 #  GeoStory 
 
 An interactive game to encourage pupils to engage more in a non-STEM subject.
@@ -5,8 +11,17 @@ GeoStory is a geography game which takes you on a journey through out the world 
 
 # Installation & usage
 
+
 - Getting Started
 
+To get started, clone the repository 
+```js
+git@github.com:PiroAvni/Lab1_GeoStory_Server.git
+```
+
+
+You w
+.You are able to start the server by typing the following commands in the command line:
 
 # Technologies
 
