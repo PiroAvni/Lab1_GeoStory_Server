@@ -31,7 +31,7 @@ When this command is run, it will make use of code within the dev-scripts folder
 
 
 ## Demo
-![Demo](github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/Demo-Server.gif "Demo")
+![Demo](github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/Demo.gif "Demo")
 
 ## Features
 Taken from the [best-practices](https://electronjs.org/docs/tutorial/security) official page, here is what this repository offers!
