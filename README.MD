@@ -7,11 +7,11 @@
     </li>
     <li><a href="#Installation">Installation </a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#Technologies">Technologies</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#technologies">Technologies</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#wins & Challenges">Wins & Challenges</a></li>
+    <li><a href="#contribution">Contribution</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -24,10 +24,6 @@ An interactive game to encourage pupils to engage more in a non-STEM subject.
 GeoStory is a geography game which takes you on a journey through out the world and challenges you ability to recognise the displayed locations while at the same time providing you some historical facts.
 
 <!-- Installation & usage -->
-# Installation
-
-
-
 ## Installation
 
 To get started, clone the repository through the command line (`git clone git@github.com:PiroAvni/Lab1_GeoStory_Client.git`). 
@@ -41,7 +37,9 @@ cd Lab1_GeoStory_Client
 npm i
 
 ```
+To run the template locally, type  `npm run dev` in the terminal.
 
+The server will be running on `http://localhost:3000/`
 
 ## Usage
 
@@ -81,17 +79,16 @@ The technologies used to build the backend server:
 * [![nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en)
 * [![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 * [![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-* [![postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)](https://www.postman.com/)
+* [![postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)](https://www.postman.com/) (Testing the API End-Points)
 * [![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
 - Nodemon
  - Json
- - Postman (Testing the API End-Points)
  - CRUD (Operations to create, access data)
  - render.com
 
 # Process
 
- Task to collect all the data on the continents and images for the json files.
+Data was collected on the continents and images for the json files.
  All data was save in the Json files.
 
 index.js
@@ -105,6 +102,25 @@ app.listen(port, () => {
     console.log(`API listening on port ${port}.`);
 })
 ```
+In the app.js file 
+  
+```js
+const express = require("express");
+const app = express();
+
+// Home
+app.get("/", (req, res) => {
+  res.send("Welcome to the GeoStory API!");
+});
+
+module.exports = app;
+```
+
+# Wins & Challenges
+
+# Contribution guide
+
+# Licence
 
 
 
@@ -113,15 +129,5 @@ app.listen(port, () => {
 
 
 
-## FAQ
-Please see [our faq](https://github.com/reZach/secure-electron-template/blob/master/docs/faq.md) for any common questions you might have.
-**NEW TO ELECTRON?** Please visit [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/newtoelectron.md).
 
 
-
-
-
-
-
-)
-[Javascript-url]:
