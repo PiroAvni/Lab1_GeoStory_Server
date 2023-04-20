@@ -94,7 +94,7 @@ Data was collected on the all continents with  images for the json files.
 
 All data was save in the Json files.
 
-
+Once Nodejs and Express.js was installed, the following code was added:
 
 index.js
 
@@ -113,7 +113,7 @@ In the app.js file
 const express = require("express");
 const app = express();
 
-// Home
+// Home ( End-Point)
 app.get("/", (req, res) => {
   res.send("Welcome to the GeoStory API!");
 });
@@ -121,9 +121,29 @@ app.get("/", (req, res) => {
 module.exports = app;
 ```
 
+An Example of one of our end-points to access and send data from our Json file:
+
+```js
+// Africa
+app.get("/Africa", (req, res) => {
+  !africa
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(africa);
+});
+
+```
+
+
 # Wins & Challenges
 
-# Contribution guide
+# Contribution 
+
+Avni Piro
+
+
+Nicola French 
+
+
 
 # Licence
 
