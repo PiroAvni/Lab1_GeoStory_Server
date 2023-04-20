@@ -7,6 +7,7 @@ const south_america = require("./Json/south_america.json");
 const asia = require("./Json/asia.json");
 const europe = require("./Json/europe.json");
 const oceania = require("./Json/oceania.json");
+const images = require("./Json/Images.json");
 
 const logger = require("./logger/logger");
 
@@ -108,6 +109,11 @@ app.get("/Oceania/random", (req, res) => {
   !randOceania === undefined
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(oceania[randOceania]);
+});
+
+app.get("/images", (req, res) => {
+  res.send(images);
+
 });
 
 module.exports = app;

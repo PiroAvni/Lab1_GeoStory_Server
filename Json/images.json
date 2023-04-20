@@ -1,0 +1,41 @@
+{
+    
+    "img": [
+        {
+            "id 1": "../assets/africa/Egypt_1.jpg"
+        },
+        {
+            "num": "../assets/africa/Egypt_2.jpg"
+        },
+        {
+            "num": "../assets/africa/Egypt_3.jpg"
+        },
+        {
+            "num": "../assets/italy/italy1.jpg"
+        },
+        {
+            "num": "../assets/italy/italy2.jpg"
+        },
+        {
+            "num": "../assets/italy/italy3.jpg"
+        },
+        {
+            "num": "../assets/fiji/fiji1.jpg"
+        },
+        {
+            "num": "../assets/fiji/fiji2.jpg"
+        },
+        {
+            "num": "../assets/fiji/fiji2.jpg"
+        },
+        {
+            "num":"../assets/south_america/Chile_1.jpg"
+        },
+        {
+            "num": "../assets/south_america/Chile_2.jpg"
+        },
+        {
+            "num": "../assets/south_america/Chile_3.jpg"
+        }
+    ]
+}
