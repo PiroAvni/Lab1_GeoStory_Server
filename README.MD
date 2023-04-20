@@ -181,13 +181,13 @@ app.get("/Africa/random", (req, res) => {
 
 ## Contribution 
 
-[![Avni Piro] (https://github.com/PiroAvni)]
+Avni Piro (https://github.com/PiroAvni)]
 
-Nicola French 
+Nicola French (https://github.com/NaNNaNNaNNaNBoolean)
 
-Mithurssan Santhirakumar
+Mithurssan Santhirakumar (https://github.com/mithurssan)
 
-Daniel Ogsunsanya
+Daniel Ogsunsanya (https://github.com/danteoguns11)
 
 ## Licence
 
