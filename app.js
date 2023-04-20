@@ -23,58 +23,81 @@ app.get("/", (req, res) => {
 
 // Africa
 app.get("/Africa", (req, res) => {
-  res.send(africa);
+  !africa
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(africa);
 });
 
 app.get("/Africa/random", (req, res) => {
   const randAfrica = Math.floor(Math.random() * africa.length);
-  res.send(africa[randAfrica]);
+  !randAfrica
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(africa[randAfrica]);
 });
 
 // North Americas
 app.get("/North_America", (req, res) => {
-  res.send(north_america);
+  !north_america
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(north_america);
 });
 
 app.get("/North_America/random", (req, res) => {
   const randNA = Math.floor(Math.random() * north_america.length);
-  res.send(north_america[randNA]);
+
+  !randNA
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(north_america[randNA]);
 });
 
 // South Americas
-app.get("South_America/", (req, res) => {
-  res.send(south_america);
+app.get("/South_America/", (req, res) => {
+  !south_america ? res.status(404).json({ message: `No Data was found` })
+    : res.send(south_america);
 });
+
 app.get("/South_America/random", (req, res) => {
   const randSA = Math.floor(Math.random() * south_america.length);
-  res.send(south_america[randSA]);
+  !randSA
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(south_america[randSA]);
 });
 
 app.get("/Asia", (req, res) => {
-  res.send(asia);
+  !asia ? res.status(404).json({ message: `No Data was found` })
+    : res.send(asia);
 });
 app.get("/Asia/random", (req, res) => {
   const randAsia = Math.floor(Math.random() * asia.length);
-  res.send(asia[randAsia]);
+  !randAsia ? res.status(404).json({ message: `No Data was found` })
+    : res.send(asia[randAsia]);
 });
 
 ////////////////////////////////////////////////////////////////////////////
 app.get("/Europe", (req, res) => {
-  res.send(europe);
+  !europe ? res.status(404).json({ message: `No Data was found` })
+    : res.send(europe);
 });
+
 app.get("/Europe/random", (req, res) => {
   const randEU = Math.floor(Math.random() * europe.length);
-  res.send(europe[randEU]);
+
+  !randEU ? res.status(404).json({ message: `No Data was found` })
+    : res.send(europe[randEU]);
 });
 
 //////////////////////////////////////////////////////////////////////////
 
 app.get("/Oceania", (req, res) => {
-  res.send(oceania);
+  !oceania ? res.status(404).json({ message: `No Data was found` })
+    : res.send(oceania);
 });
+
 app.get("/Oceania/random", (req, res) => {
   const randOceania = Math.floor(Math.random() * oceania.length);
-  res.send(oceania[randOceania]);
+
+  !randOceania ? res.status(404).json({ message: `No Data was found` })
+    : res.send(oceania[randOceania]);
 });
 
 module.exports = app;

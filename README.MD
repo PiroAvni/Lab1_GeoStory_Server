@@ -122,12 +122,3 @@ module.exports = app;
 
 # Licence
 
-
-
-
-
-
-
-
-
-
