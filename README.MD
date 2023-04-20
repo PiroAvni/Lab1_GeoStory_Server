@@ -2,37 +2,32 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#GeoStory">About The Project</a>
-    </li>
-    <li><a href="#Installation">Installation </a></li>
+    <li><a href="#GeoStory">About The Project</a></li>
+    <li><a href="#installation">Installation </a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#technologies">Technologies</a></li>
     <li><a href="#process">Process</a></li>
     <li><a href="#testing">Testing</a></li>
-    <li><a href="#wins & Challenges">Wins & Challenges</a></li>
+    <li><a href="#challenges">Wins & Challenges</a>
     <li><a href="#contribution">Contribution</a></li>
     <li><a href="#license">License</a></li>
   </ol>
 </details>
 
-
 ![alt text](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/LOGO.png "GeoStory")
 
-
 <!-- ABOUT THE PROJECT -->
-# GeoStory 
+# GeoStory
 
 An interactive game to encourage pupils to engage more in a non-STEM subject.
 GeoStory is a geography game which takes you on a journey through out the world and challenges you ability to recognise the displayed locations while at the same time providing you some historical facts.
 
 <!-- Installation & usage -->
-## Installation
+# Installation
 
-To get started, clone the repository through the command line (`git clone git@github.com:PiroAvni/Lab1_GeoStory_Client.git`). 
+To get started, clone the repository through the command line (`git clone git@github.com:PiroAvni/Lab1_GeoStory_Client.git`).
 
 Once cloned, install the dependencies for the repo by running the following commands (you do _not_ have to run the first command if your command line is already inside the newly cloned respository):
-
 
 ```
 cd Lab1_GeoStory_Client
@@ -40,27 +35,27 @@ cd Lab1_GeoStory_Client
 npm i
 
 ```
+
 To run the code locally, type  `npm run dev` in the terminal.
 
-The server will be running on [!]`http://localhost:3000/`(http://localhost:3000/)
+The server will be running on [!]`http://localhost:3000/`(<http://localhost:3000/>)
 
-
-## Usage
+# Usage
 
  To access the live data for each continent the following  End-point are:
 
-1. https://geostory-server.onrender.com/Africa/Random
-2. https://geostory-server.onrender.com/North_Americas/random
-3. https://geostory-server.onrender.com/South_Americas/random
-4. https://geostory-server.onrender.com/Asia/random
-5. https://geostory-server.onrender.com/Europe/random
-6. https://geostory-server.onrender.com/Oceania/random
-7. https://geostory-server.onrender.com/Africa/Random
+1. <https://geostory-server.onrender.com/Africa/Random>
+2. <https://geostory-server.onrender.com/North_Americas/random>
+3. <https://geostory-server.onrender.com/South_Americas/random>
+4. <https://geostory-server.onrender.com/Asia/random>
+5. <https://geostory-server.onrender.com/Europe/random>
+6. <https://geostory-server.onrender.com/Oceania/random>
+7. <https://geostory-server.onrender.com/Africa/Random>
 
-
- #### A Side Note:
+#### A Side Note
 
 > #### Scripts
+>
 >This page is specific to the scripts in the package.json file; what they do and why we have them.
 >
 >Running locally
@@ -69,11 +64,9 @@ The server will be running on [!]`http://localhost:3000/`(http://localhost:3000/
 >When this command is run, it will make use of code within the dev-scripts folder.
 >
 
-
-
 ## Demo
-![Demo](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/Demo.gif "Demo")
 
+![Demo](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/Demo.gif "Demo")
 
 # Technologies
 
@@ -85,10 +78,11 @@ The technologies used to build the backend server:
 * [![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 * [![postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)](https://www.postman.com/) (Testing the API End-Points)
 * [![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+
 - Nodemon
- - Json
- - CRUD (Operations to create, access data)
- - render.com
+* Json
+* CRUD (Operations to create, access data)
+* render.com
 
 # Process
 
@@ -100,7 +94,8 @@ Once Nodejs and Express.js was installed, the following code was added:
 
 index.js
 
-The following code 
+The following code
+
 ```js
 const app = require('./app');
 const port = 3000
@@ -109,7 +104,8 @@ app.listen(port, () => {
     console.log(`API listening on port ${port}.`);
 })
 ```
-In the app.js file 
+
+In the app.js file
   
 ```js
 const express = require("express");
@@ -135,9 +131,9 @@ app.get("/Africa", (req, res) => {
 
 ```
 
-## Testing
+# Testing
 
-Using Postman test and Automation, test script were ran to make sure the end-points were working as expected. 
+Using Postman test and Automation, test script were ran to make sure the end-points were working as expected.
 
 ```js
 pm.sendRequest("https://postman-echo.com/get", function (err, response) {
@@ -148,22 +144,20 @@ pm.test("Status code is 200", function () {
 });
 pm.collectionVariables.get("variable_key");
 ```
+
 ![Test](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/GeoStory_API_tests.png "Test")
 
+# Challenges & Wins
 
-
-## Wins & Challenges
-
- ### Challenges
-
+### Challenges
 
 * The challenge was the research and the data collection for our json files.
 
 * Difficulty implementing validation for the end-point to display status code error messages.
 
- ### Wins
+### Wins
 
- * Implementing an end-point which would randomise the data from json file and implementing validation that would send an error message to the user.
+* Implementing an end-point which would randomise the data from json file and implementing validation that would send an error message to the user.
 
 The code below shows how we implemented those challenges:
 
@@ -179,17 +173,16 @@ app.get("/Africa/random", (req, res) => {
 });
 ```
 
-## Contribution 
+# Contribution
 
-Avni Piro (https://github.com/PiroAvni)]
+Avni Piro (<https://github.com/PiroAvni>)]
 
-Nicola French (https://github.com/NaNNaNNaNNaNBoolean)
+Nicola French (<https://github.com/NaNNaNNaNNaNBoolean>)
 
-Mithurssan Santhirakumar (https://github.com/mithurssan)
+Mithurssan Santhirakumar (<https://github.com/mithurssan>)
 
-Daniel Ogsunsanya (https://github.com/danteoguns11)
+Daniel Ogsunsanya (<https://github.com/danteoguns11>)
 
-## Licence
+# License
 
 MIT License:  see [the `LICENSE` file](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/LICENSE).
-
