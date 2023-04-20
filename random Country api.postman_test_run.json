@@ -1,0 +1,65 @@
+{
+	"id": "a1d0c137-5447-4e9a-af89-2d0053dd2b3f",
+	"name": "random Country api",
+	"timestamp": "2023-04-20T09:20:04.360Z",
+	"collection_id": "18642220-131ed8cc-c657-4274-ac47-ace36d467404",
+	"folder_id": "18642220-c8ebfb98-523d-4e39-b267-fcec2709a85b",
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-20T09:20:03.622Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "06e1d357-c3e3-4d5f-87a9-249fcf78a476",
+			"name": "GeoStory",
+			"url": "https://geostory-server.onrender.com/Europe/random",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				119
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Schema is valid": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 119,
+	"collection": {
+		"requests": [
+			{
+				"id": "06e1d357-c3e3-4d5f-87a9-249fcf78a476",
+				"method": "GET"
+			}
+		]
+	}
+}

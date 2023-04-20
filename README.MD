@@ -9,6 +9,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#technologies">Technologies</a></li>
     <li><a href="#process">Process</a></li>
+    <li><a href="#testing">Testing</a></li>
     <li><a href="#wins & Challenges">Wins & Challenges</a></li>
     <li><a href="#contribution">Contribution</a></li>
     <li><a href="#license">License</a></li>
@@ -39,13 +40,14 @@ cd Lab1_GeoStory_Client
 npm i
 
 ```
-To run the template locally, type  `npm run dev` in the terminal.
+To run the code locally, type  `npm run dev` in the terminal.
 
-The server will be running on `http://localhost:3000/`
+The server will be running on [!]`http://localhost:3000/`(http://localhost:3000/)
+
 
 ## Usage
 
- The following end End-point to access the data for each continent are:
+ To access the live data for each continent the following  End-point are:
 
 1. https://geostory-server.onrender.com/Africa/Random
 2. https://geostory-server.onrender.com/North_Americas/random
@@ -126,24 +128,64 @@ An Example of one of our end-points to access and send data from our Json file:
 ```js
 // Africa
 app.get("/Africa", (req, res) => {
-  !africa
+  !africa 
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(africa);
 });
 
 ```
 
+## Testing
 
-# Wins & Challenges
+Using Postman test and Automation, test script were ran to make sure the end-points were working as expected. 
 
-# Contribution 
+'''
+pm.sendRequest("https://postman-echo.com/get", function (err, response) {
+    console.log(response.json());
+});
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.collectionVariables.get("variable_key");
+'''
+https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/eoStory_API_tests.png 
+
+## Wins & Challenges
+
+ ### Challenges
+
+
+The challenge was the research and the data collection for our json files ,it took alot of our time.
+
+Difficulty implementing validation of the status code.
+
+ ### Wins
+
+ Implementing an end-point which would randomise the data, implementing validation that would send an error message.
+
+
+```js
+app.get("/Africa/random", (req, res) => {
+  console.log(req.params);
+  const randAfrica = Math.floor(Math.random() * africa.length);
+  console.log(randAfrica);
+
+  !randAfrica === undefined
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(africa[randAfrica]);
+});
+```
+
+## Contribution 
 
 Avni Piro
 
-
 Nicola French 
 
+Mithurssan Santhirakumar
 
+Daniel Ogsunsanya
 
-# Licence
+## Licence
+
 
