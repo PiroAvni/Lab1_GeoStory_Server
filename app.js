@@ -7,7 +7,7 @@ const south_america = require("./Json/south_america.json");
 const asia = require("./Json/asia.json");
 const europe = require("./Json/europe.json");
 const oceania = require("./Json/oceania.json");
-const images = require("./Json/Images.json");
+const images = require("./Json/images.json");
 
 const logger = require("./logger/logger");
 
