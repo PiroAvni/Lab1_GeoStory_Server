@@ -112,7 +112,9 @@ app.get("/Oceania/random", (req, res) => {
 });
 
 app.get("/images", (req, res) => {
-  res.send(images);
+  !images
+  ? res.status(404).json({ message: `No Data was found` })
+  : res.send(images);
 
 });
 
