@@ -16,6 +16,8 @@
 </details>
 
 
+![alt text](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/LOGO.png "GeoStory")
+
 
 <!-- ABOUT THE PROJECT -->
 # GeoStory 
@@ -43,7 +45,7 @@ The server will be running on `http://localhost:3000/`
 
 ## Usage
 
- The following end End-point to access the data are:
+ The following end End-point to access the data for each continent are:
 
 1. https://geostory-server.onrender.com/Africa/Random
 2. https://geostory-server.onrender.com/North_Americas/random
@@ -88,8 +90,11 @@ The technologies used to build the backend server:
 
 # Process
 
-Data was collected on the continents and images for the json files.
- All data was save in the Json files.
+Data was collected on the all continents with  images for the json files.
+
+All data was save in the Json files.
+
+
 
 index.js
 
