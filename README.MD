@@ -157,14 +157,15 @@ pm.collectionVariables.get("variable_key");
  ### Challenges
 
 
-The challenge was the research and the data collection for our json files ,it took alot of our time.
+* The challenge was the research and the data collection for our json files.
 
-Difficulty implementing validation of the status code.
+* Difficulty implementing validation for the end-point to display status code error messages.
 
  ### Wins
 
- Implementing an end-point which would randomise the data, implementing validation that would send an error message.
+ * Implementing an end-point which would randomise the data from json file and implementing validation that would send an error message to the user.
 
+The code below shows how we implemented those challenges:
 
 ```js
 app.get("/Africa/random", (req, res) => {
@@ -180,7 +181,7 @@ app.get("/Africa/random", (req, res) => {
 
 ## Contribution 
 
-Avni Piro
+[![Avni Piro] (https://github.com/PiroAvni)]
 
 Nicola French 
 
@@ -190,4 +191,5 @@ Daniel Ogsunsanya
 
 ## Licence
 
+MIT License:  see [the `LICENSE` file](https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/LICENSE).
 
