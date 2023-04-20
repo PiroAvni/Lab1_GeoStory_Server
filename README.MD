@@ -139,7 +139,7 @@ app.get("/Africa", (req, res) => {
 
 Using Postman test and Automation, test script were ran to make sure the end-points were working as expected. 
 
-'''
+'''js
 pm.sendRequest("https://postman-echo.com/get", function (err, response) {
     console.log(response.json());
 });
@@ -148,7 +148,7 @@ pm.test("Status code is 200", function () {
 });
 pm.collectionVariables.get("variable_key");
 '''
-https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/eoStory_API_tests.png 
+https://github.com/PiroAvni/Lab1_GeoStory_Server/blob/main/GeoStory_API_tests.png
 
 ## Wins & Challenges
 
