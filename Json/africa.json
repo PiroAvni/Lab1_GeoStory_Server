@@ -28,7 +28,7 @@
     },
     {
         "id": 1,
-        "location": "Ethiopia -Lalibela",
+        "location": "Ethiopia",
         "img": [
             {
                 "num": "../assets/africa/Ethiopia-_1.jpg"
@@ -109,7 +109,7 @@
     },
     {
         "id": 4,
-        "location": "Timbuktu - Mali",
+        "location": "Mali",
         "img": [
             {
                 "num": "../assets/africa/Mali_1.jpg"
