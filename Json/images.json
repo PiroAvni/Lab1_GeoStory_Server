@@ -2,7 +2,7 @@
     
     "img": [
         {
-            "id 1": "../assets/africa/Egypt_1.jpg"
+            "num": "../assets/africa/Egypt_1.jpg"
         },
         {
             "num": "../assets/africa/Egypt_2.jpg"
