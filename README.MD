@@ -123,10 +123,14 @@ An Example of one of our end-points to access and send data from our Json file:
 
 ```js
 // Africa
-app.get("/Africa", (req, res) => {
-  !africa 
+app.get("/Africa/random", (req, res) => {
+  console.log(req.params);
+  const randAfrica = Math.floor(Math.random() * africa.length);
+  console.log(randAfrica);
+
+  !africa[randAfrica]
     ? res.status(404).json({ message: `No Data was found` })
-    : res.send(africa);
+    : res.send(africa[randAfrica]);
 });
 
 ```

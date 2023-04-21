@@ -34,7 +34,7 @@ app.get("/Africa/random", (req, res) => {
   const randAfrica = Math.floor(Math.random() * africa.length);
   console.log(randAfrica);
 
-  !randAfrica === undefined
+  !africa[randAfrica]
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(africa[randAfrica]);
 });
@@ -49,7 +49,7 @@ app.get("/North_America", (req, res) => {
 app.get("/North_America/random", (req, res) => {
   const randNA = Math.floor(Math.random() * north_america.length);
 
-  !randNA === undefined
+  !north_america[randNA]
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(north_america[randNA]);
 });
@@ -63,7 +63,7 @@ app.get("/South_America/", (req, res) => {
 
 app.get("/South_America/random", (req, res) => {
   const randSA = Math.floor(Math.random() * south_america.length);
-  !randSA === undefined
+  !south_america[randSA]
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(south_america[randSA]);
 });
@@ -75,7 +75,7 @@ app.get("/Asia", (req, res) => {
 });
 app.get("/Asia/random", (req, res) => {
   const randAsia = Math.floor(Math.random() * asia.length);
-  !randAsia === undefined
+  !asia[randAsia]
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(asia[randAsia]);
 });
@@ -90,7 +90,7 @@ app.get("/Europe", (req, res) => {
 app.get("/Europe/random", (req, res) => {
   const randEU = Math.floor(Math.random() * europe.length);
 
-  !randEU === undefined
+  !europe[randEU]
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(europe[randEU]);
 });
@@ -106,16 +106,15 @@ app.get("/Oceania", (req, res) => {
 app.get("/Oceania/random", (req, res) => {
   const randOceania = Math.floor(Math.random() * oceania.length);
 
-  !randOceania === undefined
+  !oceania[randOceania]
     ? res.status(404).json({ message: `No Data was found` })
     : res.send(oceania[randOceania]);
 });
 
 app.get("/images", (req, res) => {
   !images
-  ? res.status(404).json({ message: `No Data was found` })
-  : res.send(images);
-
+    ? res.status(404).json({ message: `No Data was found` })
+    : res.send(images);
 });
 
 module.exports = app;
