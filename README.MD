@@ -25,7 +25,7 @@ GeoStory is a geography game which takes you on a journey through out the world 
 <!-- Installation & usage -->
 # Installation
 
-To get started, clone the repository through the command line (`git clone git@github.com:PiroAvni/Lab1_GeoStory_Client.git`).
+To get started, clone the repository through the command line (`git@github.com:PiroAvni/Lab1_GeoStory_Server.git).
 
 Once cloned, install the dependencies for the repo by running the following commands (you do _not_ have to run the first command if your command line is already inside the newly cloned respository):
 
@@ -181,7 +181,7 @@ app.get("/Africa/random", (req, res) => {
 
 Avni Piro (<https://github.com/PiroAvni>)]
 
-Nicola French (<https://github.com/NaNNaNNaNNaNBoolean>)
+Nicole French (<https://github.com/NaNNaNNaNNaNBoolean>)
 
 Mithurssan Santhirakumar (<https://github.com/mithurssan>)
 
