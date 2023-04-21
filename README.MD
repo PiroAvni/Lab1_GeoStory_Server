@@ -177,7 +177,7 @@ app.get("/Africa/random", (req, res) => {
 
 Avni Piro (<https://github.com/PiroAvni>)]
 
-Nicola French (<https://github.com/NaNNaNNaNNaNBoolean>)
+Nicole French (<https://github.com/NaNNaNNaNNaNBoolean>)
 
 Mithurssan Santhirakumar (<https://github.com/mithurssan>)
 
