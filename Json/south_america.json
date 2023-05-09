@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "location": "Brazil",
+        "img": [
+            {
+                "num": "../assets/south_america/Brazil_1.jpg"
+            },
+            {
+                "num": "../assets/south_america/Brazil_2.jpg"
+            },
+            {
+                "num": "../assets/south_america/Brazil_3.jpg"
+            }
+        ],
+        "fact": "Lots of people think Rio de Janeiro is the Capital but it’s actually Brasilia. Other big cities include Sao Paulo, Salvador and Fortaleza. ",
+        "hintQ": [
+            {
+                "num": " largest country in South America"
+            },
+            {
+                "num": "4th Largest Nation In The Americas"
+            },
+            {
+                "num": " has 60% of the Amazon Rainforest"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "location": "Argentina",
+        "img": [
+            {
+                "num": "../assets/south_america/Argentina_1.jpg"
+            },
+            {
+                "num": "../assets/south_america/Argentina_2.jpg"
+            },
+            {
+                "num": "../assets/south_america/Argentina_3.jpg"
+            }
+        ],
+        "fact": " Argentina covers a vast landscape that stretches over 1,068,296 square miles, making it the eighth-largest country in the world. It is the second-largest nation in South America after Brazil and has a population of over 46 million people. ",
+        "hintQ": [
+            {
+                "num": "Second Largest Country in South America."
+            },
+            {
+                "num": "There Beef is World Famous"
+            },
+            {
+                "num": "Has the Largest Mosque in Latin America"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "location": "Uruguay",
+        "img": [
+            {
+                "num": "../assets/south_america/Uruguay_1.jpg"
+            },
+            {
+                "num": "../assets/south_america/Uruguay_2.jpg"
+            },
+            {
+                "num": "../assets/south_america/Uruguay_3.jpg"
+            }
+        ],
+        "fact": " 100% of Uruguay's electricity comes from renewable sources ",
+        "hintQ": [
+            {
+                "num": "hosted the 1st World cup ever"
+            },
+            {
+                "num": "has the longest national anthem in the world"
+            },
+            {
+                "num": "the biggest consumer of beef in the world"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "location": "Peru",
+        "img": [
+            {
+                "num":  "../assets/south_america/Peru_1.jpg"
+            },
+            {
+                "num":  "../assets/south_america/Peru_2.jpg"
+            },
+            {
+                "num":  "../assets/south_america/Peru_3.jpg"
+            }
+        ],
+        "fact": "The capital city of Peru is Lima, has a population over 33 million",
+        "hintQ": [
+            {
+                "num": "highest sand dunes in the world"
+            },
+            {
+                "num": " Over 70% of the world’s alpaca population lives in ..."
+            },
+            {
+                "num": " The Amazon River starts"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "location": "Chile",
+        "img": [
+            {
+                "num":"../assets/south_america/Chile_1.jpg"
+            },
+            {
+                "num": "../assets/south_america/Chile_2.jpg"
+            },
+            {
+                "num": "../assets/south_america/Chile_3.jpg"
+            }
+        ],
+        "fact": "Chile occupies 756,096.3 km2 (291,930.4 square miles), making it the seventh-largest of the 12 South American countries. However, it extends for a whopping 4,329 kilometers (2689.916 miles) from north to south",
+        "hintQ": [
+            {
+                "num": "one of the most earthquake-prone countries"
+            },
+            {
+                "num": "the biggest copper producer in the world"
+            },
+            {
+                "num": "Home to the oldest mummies in the world"
+            }
+        ]
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "location": "Ancient Egyptian-Egypt",
+        "img": [
+            {
+                "num": "../assets/africa//Egypt_1.jpg"
+            },
+            {
+                "num": "../assets/africa/Egypt_2.jpg"
+            },
+            {
+                "num": "../assets/africa/Egypt_3.jpg"
+            }
+        ],
+        "fact": "Perched on the outskirts of the Cairo, the pyramid is easily accessible to any wanderer who wishes to visit the last remaining wonder of the ancient world. This gargantuan tomb was constructed about 4,500 years ago and has stood the test of time, becoming a symbol for Ancient Egyptian culture.",
+        "hintQ": [
+            {
+                "num": "Cleopatra, the queen of Egypt"
+            },
+            {
+                "num": "Pharaohs"
+            },
+            {
+                "num": "Pyramid"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "location": "Ethiopia -Lalibela",
+        "img": [
+            {
+                "num": "../assets/africa//Ethiopia-_1.jpg"
+            },
+            {
+                "num": "../assets/africa//Ethiopia_2.jpg"
+            },
+            {
+                "num": "../assets/africa//Ethiopia_3.jpg"
+            }
+        ],
+        "fact": "King Lalibela instigated the construction of 11 monolithic churches, allegedly in attempt to build a ‘New Jerusalem’. There was unrest and conflict, with Muslim conquests making Christian pilgrimages to the holy land difficult. ",
+        "hintQ": [
+            {
+                "num": "Second most populated country in Africa"
+            },
+            {
+                "num": "Never been colonised"
+            },
+            {
+                "num": "Africa’s oldest country"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "location": "Robben Island -South Africa",
+        "img": [
+            {
+                "num": "../assets/africa/South_Africa_1.jpg"
+            },
+            {
+                "num": "../assets/africa/South_Africa_2.jpg"
+            },
+            {
+                "num": "../assets/africa//South_Africa_3.jpeg"
+            }
+        ],
+        "fact": "The prison island that Nelson Mandela was imprisoned in for 18 of his 27 year sentence, and just a short trip from the coast of Cape Town. The island was first used a prison in the 17th Century, but was also used as a leper colony and for quarantine purposes. ",
+        "hintQ": [
+            {
+                "num": "has 11 official languages"
+            },
+            {
+                "num": "wines are world-famous"
+            },
+            {
+                "num": "only country in the world with three capital cities"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "location": "Great Zimbabwe",
+        "img": [
+            {
+                "num": "../assets/africa/great-zimbabwes_1.jpg"
+            },
+            {
+                "num": "../assets/africa/great-zimbabwes_2.jpg"
+            },
+            {
+                "num": "../assets/africa/great-zimbabwes_3.jpg"
+            }
+        ],
+        "fact": "During the 11th to 15th century, Great Zimbabwe was the heart of a thriving trading empire that was based on cattle husbandry, agriculture, and the gold trade on the Indian Ocean coast. The extensive stone ruins of this African Iron Age city are located in the southeastern portion of the modern-day country of Zimbabwe. ",
+        "hintQ": [
+            {
+                "num": "the most official languages in the world"
+            },
+            {
+                "num": "Victoria Falls is one of original the Seven Natural Wonders of the World."
+            },
+            {
+                "num": "King Solomon’s gold mines"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "location": "Timbuktu - Mali",
+        "img": [
+            {
+                "num": "../assets/africa/Mali_1.jpg"
+            },
+            {
+                "num": "../assets/africa/Mali_2.jpg"
+            },
+            {
+                "num": "../assets/africa/Mali_3.jpg"
+            }
+        ],
+        "fact": "Located on the southern edge of the Sahara in what is now Mali, the city of Timbuktu has historical significance for being a trading post on the trans-Saharan caravan route and as a center of Islamic culture in the 15th through the 17th century. The city was founded by Tuaregs around 1100 CE, later became part of the Mali Empire, and then changed hands several times after that. ",
+        "hintQ": [
+            {
+                "num": "home to the richest man who has ever lived"
+            },
+            {
+                "num": "home to the world’s largest mud-brick building"
+            },
+            {
+                "num": "home to some incredible UNESCO World Heritage Sites"
+            }
+        ]
+    }
+]

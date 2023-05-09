@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "place": "Ireland",
+        "img": [
+            {
+                "num": "../assets/ireland/ireland1.jpg"
+            },
+            {
+                "num": "../assets/ireland/ireland2.jpg"
+            },
+            {
+                "num": "../assets/ireland/ireland3.jpg"
+            }
+        ],
+        "fact": "Ireland is the most successful country in eurovision!",
+        "hintQ": [
+            {
+                "num": "Halloween orginated in this country!"
+            },
+            {
+                "num": "Count Dracula was written by a author from here!"
+            },
+            {
+                "num": "Luck of the _____"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "place": "Cyprus",
+        "img": [
+            {
+                "num": "../assets/cyprus/cyprus1.jpeg"
+            },
+            {
+                "num": "../assets/cyprus/cyprus2.jpg"
+            },
+            {
+                "num": "../assets/cyprus/cyprus3.jpg"
+            }
+        ],
+        "fact": "Cyprus is know as the island of love, the birthplace of Aphrodite, the goddess of love and beauty!",
+        "hintQ": [
+            {
+                "num": "The only other country to hold a british royal wedding! All the way from 1191! "
+            },
+            {
+                "num": "The home Of Halloumi."
+            },
+            {
+                "num": "There are more stray cats then residents here"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "place": "Italy",
+        "img": [
+            {
+                "num": "../assets/italy/italy1.jpg"
+            },
+            {
+                "num": "../assets/italy/italy2.jpg"
+            },
+            {
+                "num": "../assets/italy/italy3.jpg"
+            }
+        ],
+        "fact": "14 Billion espressos are consumed in Italy evry year!",
+        "hintQ": [
+            {
+                "num": "home to Europe's only 3 active volcano"
+            },
+            {
+                "num": "Banks started here"
+            },
+            {
+                "num": "The people here eat salad for dessert"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "place": "Spain",
+        "img": [
+            {
+                "num": "../assets/spain/spain1.jpg"
+            },
+            {
+                "num": "../assets/spain/spain2.jpeg"
+            },
+            {
+                "num": "../assets/spain/spain3.jpg"
+            }
+        ],
+        "fact": "Instead of a Tooth fairy, Spain has a Tooth mouse called Ratoncito Perez.",
+        "hintQ": [
+            {
+                "num": "Has the oldest restaurant in the world in its captial"
+            },
+            {
+                "num": "The origin of the stapler!"
+            },
+            {
+                "num": "Their national animal is the bull!"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "place": "Finland",
+        "img": [
+            {
+                "num": "../assets/finland/fin1.jpg"
+            },
+            {
+                "num": "../assets/finland/fin2.jpg"
+            },
+            {
+                "num": "../assets/finland/fin3.jpg"
+            }
+        ],
+        "fact": "Finland is the go to place to see the northern lights.",
+        "hintQ": [
+            {
+                "num": "The worlds biggest coffee drinkers live here!"
+            },
+            {
+                "num": "This country loves saunas"
+            },
+            {
+                "num": "Over 70% of this country is forests."
+            }
+        ]
+    }
+]
